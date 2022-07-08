@@ -3,12 +3,6 @@
 #include <math.h>
 #include <stdlib.h>
 
-int chegou(int coordL, int coordC, int coordLA, int coordCA){
-    if(coordL == coordLA && coordC == coordCA){
-        return 1;
-    }
-    return 0;
-}
 
 int main() {
     int linhas, colunas;
